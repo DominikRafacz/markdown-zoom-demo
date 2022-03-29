@@ -1,0 +1,27 @@
+.modal {
+    display: none;
+    background: rgba(1,1,1,0.25);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.modal img, .modal span {
+    z-index: 10;
+    max-height: 95vh;
+    max-width: 95vw;
+}
+
+.img {
+    cursor: zoom-in;
+}
